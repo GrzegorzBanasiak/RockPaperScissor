@@ -1,0 +1,103 @@
+body{
+	background-color: #0099FF;
+	color: white;
+	font-family: 'Alfa Slab One', sans-serif;
+	margin-right: 0;
+	margin-left: 0;
+}
+.name{
+	font-size: 34px;
+	margin-top: 10px;
+}
+.playerLicznik, .botLicznik{
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+
+.panel{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	text-align: center;
+	height: 540px;
+}
+.row{
+	margin: 0 auto;
+	width: 800px;
+	height: 260px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+.row div{
+	float: left;
+	margin: 10px;
+
+}
+.player, .bot{
+	width: 210px;
+	height: 180px;
+	border:3px solid white;
+	border-radius: 5px;
+	padding-top: 50px;
+
+}
+.playerWynik, .botWynik{
+	width: 140px;
+}
+.rowPanel button{
+	height: 60px;
+	width: 100px;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: #0099FF;
+	color: white;
+	margin: 10px;
+	margin-top: 0;
+}
+
+
+.liniadiv{
+	float: left;
+}
+
+.linia div{
+	height: 34px;
+	border:3px solid white;
+	border-radius:2px;
+	margin-left: 10px;
+	margin-riwght: 10px;
+	margin-top: 10px;
+	padding-top: 1px;
+}
+
+.stopka{
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 3px;
+	font-family: 'Anonymous Pro', sans-serif;
+}
+.stopka a{
+	color:white;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.content{
+	background-color: white;
+	text-align: justify;
+	color: #0099FF;
+	font-family: 'Anonymous Pro', sans-serif;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.page{
+	background-color: #F3F3F3;
+	margin: 0 auto;
+	width: 690px;
+	height: 1100px;
+	box-shadow: 0 0 10px 3px grey;
+	padding: 15px;
+}
