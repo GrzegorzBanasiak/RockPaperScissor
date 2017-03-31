@@ -97,7 +97,22 @@ body{
 	background-color: #F3F3F3;
 	margin: 0 auto;
 	width: 690px;
-	height: 1100px;
+	height: 1050px;
 	box-shadow: 0 0 10px 3px grey;
 	padding: 15px;
 }
+.kontakt{
+	width: 100%;
+	background-color: #0099FF;
+	font-family: 'Anonymous Pro', sans-serif;
+	color: white;
+}
+.kontaktPanel{
+	width: 690px;
+	margin: 0 auto;
+}
+.footer{
+	margin: 0 auto;
+}
+
+
