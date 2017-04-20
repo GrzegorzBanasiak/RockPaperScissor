@@ -97,7 +97,7 @@ body{
 	background-color: #F3F3F3;
 	margin: 0 auto;
 	width: 690px;
-	height: 1050px;
+	height: 100%;
 	box-shadow: 0 0 10px 3px grey;
 	padding: 15px;
 }

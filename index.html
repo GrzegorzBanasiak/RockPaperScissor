@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game v1</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+ 
+    <script type="text/javascript" src="jquery-3.1.1.min.js" ></script>
+    <script type="text/javascript" src="logic.js" ></script>
+
+
+  </head>
+  <body>
+
+    <div class="panel">
+      <h1 class="titleName">Rock Paper Scissors</h1>
+      <div class="row">
+        <div class="playerWynik">
+          <p class="playerLicznik">0</p>
+          <p class="name">Player</p>
+        </div>
+        <div class="player">
+          <h1 class="odliczanie"></h1>
+        </div>
+        <div class="bot">
+          <h1 class="odliczanie"></h1>
+        </div>
+        <div class="botWynik">
+          <p class="botLicznik">0</p>
+          <p class="name">Bot</p>
+        </div>
+
+      </div>
+
+      <div class="rowPanel">
+        <button id="0"><i class="fa fa-hand-rock-o fa-3x" aria-hidden="true"></i></button>
+        <button id="1"><i class="fa fa-hand-paper-o fa-3x" aria-hidden="true"></i></button>
+        <button id="2"><i class="fa fa-hand-scissors-o fa-3x" aria-hidden="true"></i></button>
+      </div>
+    </div>
+    
+    <div class="stopka">
+      <a href="https://github.com/GrzegorzBanasiak/RockPaperScissor"><i class="fa fa-github" aria-hidden="true"></i>&emsp;github.com/GrzegorzBanasiak/RockPaper...</a>
+
+    </div>
+    <div class="content">
+      <div class="page"> 
+        <h2>Rock Paper Scissor</h2>
+        <p>To bardzo prosta gra oparta na funkcji losowania napisanej w JavaScript. Cały kod do pobrania w linku powyżej. Komputer losuje liczbę z przedziału, a następnie wyświetla odpowiednią figurę przypisaną liczbie. </p>
+        <img src="img\image1.jpg">
+        <p>Gdzie min i max oznacza przedział z którego losujemy liczbę, w grze odpowiednio 0 i 2</p>
+        <p>Wylosowaną wartość przekazujemy do funkcji drukującej, która wyświetli odpowiednie znaki(Ja korzystałem z FontAwsome - do pobrania za darmo). W przypadku gracza, do analogicznej funkcji przekazujemy wartość wybieranego znaku.
+        <img src="img\image2.jpg">
+        <p>Pozostaje tylko złączyć to w całość i dopisać funkcję sprawdzającą wynik, przypisującą punkt odpowiedniej stronie.</p>
+        <img src="img\image3.jpg">
+        <p>Do zmiennej "val" pobieram wartość z naciśniętego klawisza. Cały skrypt gry odpala sie po naciśnięciu klawisza.</p>
+      </div>
+    </div>
+    <div class="kontakt">
+      <div class="kontaktPanel">
+        <h3>Kontakt</h3>
+        <p>grzegorzbanasiak95@gmail.com</p>
+        <p>https://www.linkedin.com/in/grzegorz-banasiak-a10563123/</p>
+        <p>https://www.facebook.com/dzynq</p>
+        <p>https://github.com/GrzegorzBanasiak</p>
+        <div class="footer">2017 &reg;</div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
